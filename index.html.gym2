@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PowerFit Gym - Gimnasio profesional con clases, entrenadores certificados y planes desde $29/mes.">
+  <title>PowerFit Gym | Transforma tu cuerpo. Transforma tu vida.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <i class="fas fa-dumbbell"></i>
+        <span>Power<span class="accent">Fit</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#instalaciones">Instalaciones</a>
+        <a href="#clases">Clases</a>
+        <a href="#precios">Precios</a>
+        <a href="#entrenadores">Entrenadores</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#blog">Blog</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#precios" class="btn btn-primary btn-sm">Únete ahora</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content" data-aos="fade-up">
+      <span class="hero-badge">🏆 Gimnasio #1 en la ciudad · Abierto 24/7</span>
+      <h1>Transforma tu cuerpo.<br><span class="accent">Transforma tu vida.</span></h1>
+      <p>Instalaciones de última generación, entrenadores certificados y una comunidad que te impulsa a alcanzar tus metas.</p>
+      <div class="hero-buttons">
+        <a href="#contacto" class="btn btn-primary">Clase gratis</a>
+        <a href="#precios" class="btn btn-outline">Ver planes</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong data-count="500">0</strong><span>Miembros activos</span></div>
+        <div class="stat"><strong data-count="15">0</strong><span>Entrenadores</span></div>
+        <div class="stat"><strong data-count="50">0</strong><span>Clases semanales</span></div>
+        <div class="stat"><strong data-count="8">0</strong><span>Años de experiencia</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre nosotros -->
+  <section class="section about" id="nosotros">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Sobre nosotros</span>
+        <h2>Más que un gimnasio,<br>una <span class="accent">comunidad</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image" data-aos="fade-right">
+          <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800" alt="Interior del gimnasio PowerFit">
+          <div class="about-badge">
+            <strong>8+</strong>
+            <span>Años transformando vidas</span>
+          </div>
+        </div>
+        <div class="about-text" data-aos="fade-left">
+          <p>Fundado en 2018, <strong>PowerFit Gym</strong> nació con la misión de hacer el fitness accesible, motivador y efectivo para todos. Hoy somos la comunidad fitness más grande de la ciudad.</p>
+          <div class="about-cards">
+            <div class="about-card">
+              <i class="fas fa-bullseye"></i>
+              <h4>Misión</h4>
+              <p>Inspirar y empoderar a cada persona para que alcance su máximo potencial físico y mental.</p>
+            </div>
+            <div class="about-card">
+              <i class="fas fa-eye"></i>
+              <h4>Visión</h4>
+              <p>Ser el gimnasio de referencia en Latinoamérica por innovación, resultados y comunidad.</p>
+            </div>
+            <div class="about-card">
+              <i class="fas fa-heart"></i>
+              <h4>Valores</h4>
+              <p>Disciplina, inclusión, excelencia y pasión por el bienestar integral.</p>
+            </div>
+          </div>
+          <ul class="about-features">
+            <li><i class="fas fa-check-circle"></i> Equipamiento Technogym de última generación</li>
+            <li><i class="fas fa-check-circle"></i> Certificación ISSA y NASM en todo el staff</li>
+            <li><i class="fas fa-check-circle"></i> App móvil con seguimiento de progreso</li>
+            <li><i class="fas fa-check-circle"></i> Nutricionista deportivo incluido en plan Elite</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instalaciones -->
+  <section class="section facilities" id="instalaciones">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Instalaciones</span>
+        <h2>Espacios diseñados para tu <span class="accent">máximo rendimiento</span></h2>
+        <p>2,500 m² de instalaciones premium con todo lo que necesitas para entrenar como un profesional.</p>
+      </div>
+      <div class="facilities-grid">
+        <div class="facility-card large" data-aos="zoom-in">
+          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=900" alt="Sala de pesas">
+          <div class="facility-info">
+            <h3>Sala de Pesas</h3>
+            <p>Más de 80 máquinas y peso libre hasta 200kg</p>
+          </div>
+        </div>
+        <div class="facility-card" data-aos="zoom-in" data-aos-delay="100">
+          <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600" alt="Clases grupales">
+          <div class="facility-info">
+            <h3>Clases Grupales</h3>
+            <p>5 salones con espejos y sonido premium</p>
+          </div>
+        </div>
+        <div class="facility-card" data-aos="zoom-in" data-aos-delay="200">
+          <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?w=600" alt="Zona cardio">
+          <div class="facility-info">
+            <h3>Zona Cardio</h3>
+            <p>Cintas, elípticas y bicicletas inteligentes</p>
+          </div>
+        </div>
+        <div class="facility-card" data-aos="zoom-in" data-aos-delay="100">
+          <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=600" alt="CrossFit box">
+          <div class="facility-info">
+            <h3>CrossFit Box</h3>
+            <p>Cajones, kettlebells, cuerdas y más</p>
+          </div>
+        </div>
+        <div class="facility-card" data-aos="zoom-in" data-aos-delay="200">
+          <img src="https://images.unsplash.com/photo-1540497077202-7bf8a9bb3f20?w=600" alt="Vestuarios">
+          <div class="facility-info">
+            <h3>Vestuarios Premium</h3>
+            <p>Sauna, duchas y lockers inteligentes</p>
+          </div>
+        </div>
+        <div class="facility-card large" data-aos="zoom-in" data-aos-delay="300">
+          <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=900" alt="Zona funcional">
+          <div class="facility-info">
+            <h3>Zona Funcional & Yoga</h3>
+            <p>Espacio abierto para movilidad y mindfulness</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clases -->
+  <section class="section classes" id="clases">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Clases</span>
+        <h2>Entrena a tu <span class="accent">ritmo</span></h2>
+        <p>Más de 50 clases semanales para todos los niveles y objetivos.</p>
+      </div>
+      <div class="classes-grid">
+        <div class="class-card" data-aos="fade-up">
+          <div class="class-icon"><i class="fas fa-fire"></i></div>
+          <h3>HIIT</h3>
+          <p>Quema calorías con intervalos de alta intensidad. 45 min.</p>
+          <span class="class-level">Todos los niveles</span>
+        </div>
+        <div class="class-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="class-icon"><i class="fas fa-bicycle"></i></div>
+          <h3>Spinning</h3>
+          <p>Rutas virtuales con música motivadora. 50 min.</p>
+          <span class="class-level">Intermedio</span>
+        </div>
+        <div class="class-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="class-icon"><i class="fas fa-om"></i></div>
+          <h3>Yoga</h3>
+          <p>Flexibilidad, equilibrio y relajación mental. 60 min.</p>
+          <span class="class-level">Todos los niveles</span>
+        </div>
+        <div class="class-card" data-aos="fade-up">
+          <div class="class-icon"><i class="fas fa-fist-raised"></i></div>
+          <h3>Boxeo Fitness</h3>
+          <p>Técnica de golpes + acondicionamiento. 45 min.</p>
+          <span class="class-level">Principiante-Avanzado</span>
+        </div>
+        <div class="class-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="class-icon"><i class="fas fa-dumbbell"></i></div>
+          <h3>CrossFit</h3>
+          <p>WODs variados para fuerza y resistencia. 60 min.</p>
+          <span class="class-level">Intermedio-Avanzado</span>
+        </div>
+        <div class="class-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="class-icon"><i class="fas fa-person-running"></i></div>
+          <h3>Pilates</h3>
+          <p>Core, postura y control corporal. 55 min.</p>
+          <span class="class-level">Todos los niveles</span>
+        </div>
+      </div>
+
+      <!-- Horarios -->
+      <div class="schedule-wrapper" data-aos="fade-up">
+        <h3>Horario semanal de clases</h3>
+        <div class="schedule-table-wrapper">
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>Hora</th>
+                <th>Lun</th>
+                <th>Mar</th>
+                <th>Mié</th>
+                <th>Jue</th>
+                <th>Vie</th>
+                <th>Sáb</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>07:00</td>
+                <td>HIIT</td>
+                <td>Yoga</td>
+                <td>HIIT</td>
+                <td>Spinning</td>
+                <td>HIIT</td>
+                <td>CrossFit</td>
+              </tr>
+              <tr>
+                <td>10:00</td>
+                <td>Pilates</td>
+                <td>Boxeo</td>
+                <td>Pilates</td>
+                <td>Boxeo</td>
+                <td>Pilates</td>
+                <td>Yoga</td>
+              </tr>
+              <tr>
+                <td>18:00</td>
+                <td>CrossFit</td>
+                <td>HIIT</td>
+                <td>Spinning</td>
+                <td>CrossFit</td>
+                <td>Spinning</td>
+                <td>—</td>
+              </tr>
+              <tr>
+                <td>20:00</td>
+                <td>Spinning</td>
+                <td>CrossFit</td>
+                <td>Boxeo</td>
+                <td>HIIT</td>
+                <td>Boxeo</td>
+                <td>—</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Precios -->
+  <section class="section pricing" id="precios">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Planes</span>
+        <h2>Elige el plan perfecto para <span class="accent">ti</span></h2>
+        <p>Sin contratos ocultos. Cancela cuando quieras.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="price-card" data-aos="fade-up">
+          <h3>Básico</h3>
+          <div class="price">
+            <span class="currency">$</span>
+            <span class="amount">29</span>
+            <span class="period">/mes</span>
+          </div>
+          <p class="price-desc">Ideal para empezar tu camino fitness</p>
+          <ul>
+            <li><i class="fas fa-check"></i> Acceso sala de pesas y cardio</li>
+            <li><i class="fas fa-check"></i> Horario 6:00 – 22:00</li>
+            <li><i class="fas fa-check"></i> App de seguimiento</li>
+            <li class="disabled"><i class="fas fa-times"></i> Clases grupales</li>
+            <li class="disabled"><i class="fas fa-times"></i> Entrenador personal</li>
+          </ul>
+          <a href="#contacto" class="btn btn-outline btn-block">Empezar ahora</a>
+        </div>
+        <div class="price-card featured" data-aos="fade-up" data-aos-delay="100">
+          <div class="popular-badge">Más popular</div>
+          <h3>Premium</h3>
+          <div class="price">
+            <span class="currency">$</span>
+            <span class="amount">49</span>
+            <span class="period">/mes</span>
+          </div>
+          <p class="price-desc">El favorito de nuestros miembros</p>
+          <ul>
+            <li><i class="fas fa-check"></i> Acceso 24/7 a todas las áreas</li>
+            <li><i class="fas fa-check"></i> 2 clases grupales por semana</li>
+            <li><i class="fas fa-check"></i> Evaluación física mensual</li>
+            <li><i class="fas fa-check"></i> Acceso a vestuarios premium</li>
+            <li class="disabled"><i class="fas fa-times"></i> Entrenador personal</li>
+          </ul>
+          <a href="#contacto" class="btn btn-primary btn-block">Empezar ahora</a>
+        </div>
+        <div class="price-card" data-aos="fade-up" data-aos-delay="200">
+          <h3>Elite</h3>
+          <div class="price">
+            <span class="currency">$</span>
+            <span class="amount">79</span>
+            <span class="period">/mes</span>
+          </div>
+          <p class="price-desc">Máximo rendimiento y resultados</p>
+          <ul>
+            <li><i class="fas fa-check"></i> Todo lo del plan Premium</li>
+            <li><i class="fas fa-check"></i> Clases ilimitadas</li>
+            <li><i class="fas fa-check"></i> 4 sesiones con entrenador/mes</li>
+            <li><i class="fas fa-check"></i> Plan nutricional personalizado</li>
+            <li><i class="fas fa-check"></i> Acceso prioritario a eventos</li>
+          </ul>
+          <a href="#contacto" class="btn btn-outline btn-block">Empezar ahora</a>
+        </div>
+        <div class="price-card annual" data-aos="fade-up" data-aos-delay="300">
+          <div class="save-badge">Ahorra 33%</div>
+          <h3>Anual</h3>
+          <div class="price">
+            <span class="currency">$</span>
+            <span class="amount">399</span>
+            <span class="period">/año</span>
+          </div>
+          <p class="price-desc">Mejor precio · 2 meses gratis</p>
+          <ul>
+            <li><i class="fas fa-check"></i> Todo lo del plan Premium</li>
+            <li><i class="fas fa-check"></i> 1 mes de entrenador gratis</li>
+            <li><i class="fas fa-check"></i> Kit de bienvenida PowerFit</li>
+            <li><i class="fas fa-check"></i> Congelamiento de membresía</li>
+            <li><i class="fas fa-check"></i> Invita a un amigo gratis</li>
+          </ul>
+          <a href="#contacto" class="btn btn-primary btn-block">Empezar ahora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Entrenadores -->
+  <section class="section trainers" id="entrenadores">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Equipo</span>
+        <h2>Conoce a nuestros <span class="accent">entrenadores</span></h2>
+      </div>
+      <div class="trainers-grid">
+        <div class="trainer-card" data-aos="fade-up">
+          <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400" alt="Carlos Mendoza">
+          <div class="trainer-info">
+            <h3>Carlos Mendoza</h3>
+            <span>CrossFit · Fuerza</span>
+            <p>Certificado NASM. 10 años de experiencia en entrenamiento funcional.</p>
+            <div class="trainer-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+          <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400" alt="María López">
+          <div class="trainer-info">
+            <h3>María López</h3>
+            <span>Yoga · Pilates</span>
+            <p>Instructora certificada RYT-500. Especialista en movilidad y bienestar.</p>
+            <div class="trainer-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="trainer-card" data-aos="fade-up" data-aos-delay="200">
+          <img src="https://images.unsplash.com/photo-1583454110551-21f2d2b0b716?w=400" alt="Diego Ramírez">
+          <div class="trainer-info">
+            <h3>Diego Ramírez</h3>
+            <span>Boxeo · HIIT</span>
+            <p>Ex-boxeador profesional. Entrenador ISSA con enfoque en pérdida de grasa.</p>
+            <div class="trainer-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="trainer-card" data-aos="fade-up" data-aos-delay="300">
+          <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400" alt="Ana Torres">
+          <div class="trainer-info">
+            <h3>Ana Torres</h3>
+            <span>Nutrición · Spinning</span>
+            <p>Nutricionista deportiva y coach de ciclismo indoor certificada.</p>
+            <div class="trainer-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resultados -->
+  <section class="section results">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Resultados</span>
+        <h2>Transformaciones <span class="accent">reales</span></h2>
+      </div>
+      <div class="results-grid">
+        <div class="result-card" data-aos="flip-left">
+          <div class="result-images">
+            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c149e?w=300" alt="Antes">
+            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=300" alt="Después">
+          </div>
+          <p><strong>Luis G.</strong> · -18kg en 6 meses con plan Elite</p>
+        </div>
+        <div class="result-card" data-aos="flip-left" data-aos-delay="100">
+          <div class="result-images">
+            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=300" alt="Antes">
+            <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=300" alt="Después">
+          </div>
+          <p><strong>Sofía R.</strong> · +8kg músculo en 8 meses</p>
+        </div>
+        <div class="result-card" data-aos="flip-left" data-aos-delay="200">
+          <div class="result-images">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=300" alt="Antes">
+            <img src="https://images.unsplash.com/photo-1583454110551-21f2d2b0b716?w=300" alt="Después">
+          </div>
+          <p><strong>Andrés M.</strong> · Maratón completado en 4h12m</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="section testimonials" id="testimonios">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Testimonios</span>
+        <h2>Lo que dicen nuestros <span class="accent">miembros</span></h2>
+      </div>
+      <div class="testimonials-slider" id="testimonialsSlider">
+        <div class="testimonial-track" id="testimonialTrack">
+          <div class="testimonial-card active">
+            <div class="stars">★★★★★</div>
+            <p>"Llevo 2 años en PowerFit y es la mejor decisión que he tomado. El ambiente, los entrenadores y las instalaciones son de otro nivel."</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80" alt="Roberto">
+              <div>
+                <strong>Roberto Sánchez</strong>
+                <span>Miembro Premium · 2 años</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Las clases de yoga y el plan nutricional del plan Elite cambiaron mi vida. Bajé 12kg y me siento con más energía que nunca."</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80" alt="Valentina">
+              <div>
+                <strong>Valentina Cruz</strong>
+                <span>Miembro Elite · 1 año</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Abierto 24/7 es un game-changer para mí. Entreno después del trabajo sin excusas. El staff siempre está dispuesto a ayudar."</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80" alt="Miguel">
+              <div>
+                <strong>Miguel Ángel P.</strong>
+                <span>Miembro Premium · 8 meses</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-dots" id="sliderDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section class="section blog" id="blog">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Blog</span>
+        <h2>Consejos y <span class="accent">novedades</span></h2>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card" data-aos="fade-up">
+          <img src="https://images.unsplash.com/photo-1490645935967-10de6ba34261?w=600" alt="Nutrición">
+          <div class="blog-content">
+            <span class="blog-date">10 Jun 2026</span>
+            <h3>5 alimentos post-entreno que aceleran tu recuperación</h3>
+            <p>Descubre qué comer en la ventana anabólica para maximizar tus ganancias musculares.</p>
+            <a href="#" class="read-more">Leer más →</a>
+          </div>
+        </article>
+        <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+          <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600" alt="Rutina">
+          <div class="blog-content">
+            <span class="blog-date">5 Jun 2026</span>
+            <h3>Rutina full body para principiantes (3 días/semana)</h3>
+            <p>La guía definitiva para empezar en el gimnasio sin lesionarte ni aburrirte.</p>
+            <a href="#" class="read-more">Leer más →</a>
+          </div>
+        </article>
+        <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+          <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?w=600" alt="Motivación">
+          <div class="blog-content">
+            <span class="blog-date">1 Jun 2026</span>
+            <h3>Cómo mantener la motivación cuando quieres rendirte</h3>
+            <p>Estrategias psicológicas respaldadas por la ciencia del deporte.</p>
+            <a href="#" class="read-more">Leer más →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">FAQ</span>
+        <h2>Preguntas <span class="accent">frecuentes</span></h2>
+      </div>
+      <div class="faq-list" data-aos="fade-up">
+        <div class="faq-item">
+          <button class="faq-question">¿Puedo cancelar mi membresía en cualquier momento?</button>
+          <div class="faq-answer">
+            <p>Sí. No hay contratos de permanencia. Puedes cancelar con 30 días de anticipación sin penalización.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿Ofrecen clase de prueba gratuita?</button>
+          <div class="faq-answer">
+            <p>¡Por supuesto! Agenda tu clase gratis desde el formulario de contacto o llámanos directamente.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿Hay estacionamiento disponible?</button>
+          <div class="faq-answer">
+            <p>Contamos con estacionamiento gratuito para miembros Premium y Elite. Los miembros Básico tienen tarifa preferencial en el estacionamiento colindante.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿Qué debo llevar en mi primera visita?</button>
+          <div class="faq-answer">
+            <p>Ropa cómoda, zapatos deportivos, toalla y botella de agua. Nosotros te proporcionamos el candado para el locker.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿Tienen app móvil?</button>
+          <div class="faq-answer">
+            <p>Sí. La app PowerFit te permite reservar clases, ver tu progreso, acceder con QR y recibir planes de entrenamiento personalizados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section class="section contact" id="contacto">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Contacto</span>
+        <h2>Empieza tu transformación <span class="accent">hoy</span></h2>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form" id="contactForm" data-aos="fade-right">
+          <div class="form-group">
+            <label for="name">Nombre completo</label>
+            <input type="text" id="name" name="name" required placeholder="Tu nombre">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="tu@email.com">
+            </div>
+            <div class="form-group">
+              <label for="phone">Teléfono</label>
+              <input type="tel" id="phone" name="phone" placeholder="+52 555 123 4567">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="plan">Plan de interés</label>
+            <select id="plan" name="plan">
+              <option value="">Selecciona un plan</option>
+              <option value="basico">Básico - $29/mes</option>
+              <option value="premium">Premium - $49/mes</option>
+              <option value="elite">Elite - $79/mes</option>
+              <option value="anual">Anual - $399/año</option>
+              <option value="clase-gratis">Clase gratis</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="4" placeholder="Cuéntanos tus objetivos..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Enviar solicitud</button>
+        </form>
+        <div class="contact-info" data-aos="fade-left">
+          <div class="info-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Dirección</h4>
+              <p>Av. Fitness 1234, Col. Deportiva<br>Ciudad de México, CP 06600</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Teléfono</h4>
+              <p>+52 (55) 1234-5678</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Horario</h4>
+              <p>Lun – Vie: 5:00 – 23:00<br>Sáb – Dom: 7:00 – 21:00<br><strong>Miembros Premium/Elite: 24/7</strong></p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>info@powerfitgym.com</p>
+            </div>
+          </div>
+          <div class="map-container">
+            <iframe
+              src="https://maps.google.com/maps?q=Ciudad%20de%20Mexico&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+              title="Ubicación PowerFit Gym">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <i class="fas fa-dumbbell"></i>
+            <span>Power<span class="accent">Fit</span></span>
+          </a>
+          <p>Tu mejor versión empieza aquí. Únete a la comunidad fitness más motivadora de la ciudad.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Enlaces</h4>
+          <a href="#nosotros">Sobre nosotros</a>
+          <a href="#clases">Clases</a>
+          <a href="#precios">Precios</a>
+          <a href="#entrenadores">Entrenadores</a>
+          <a href="#blog">Blog</a>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <a href="#">Política de privacidad</a>
+          <a href="#">Términos y condiciones</a>
+          <a href="#">Política de cancelación</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>Recibe tips de fitness y ofertas exclusivas.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Tu email" required>
+            <button type="submit" class="btn btn-primary btn-sm">Suscribirse</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 PowerFit Gym. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/525512345678?text=Hola,%20quiero%20información%20sobre%20PowerFit%20Gym"
+     class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Botón volver arriba -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
